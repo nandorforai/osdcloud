@@ -7,4 +7,4 @@ $Global:MyOSDCloud = [ordered]@{
     ClearDiskConfirm     = $false
 }
 
-Start-OSDCloud -OSName "Windows 11 24H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage de-de -ZTI
+Start-OSDCloud -OSName "Windows 11 24H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage en-en -ZTI
