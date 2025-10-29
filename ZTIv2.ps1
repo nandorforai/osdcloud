@@ -14,6 +14,7 @@ $Global:MyOSDCloud = [ordered]@{
     AdminPassword        = 'Sam0DaProbam'
     AutoLogon            = $true
     AutoLogonCount       = 1
+    ZeroTouch            = $true
 }
 
 Start-OSDCloud -OSName "Windows 11 24H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage en-US -ZTI
