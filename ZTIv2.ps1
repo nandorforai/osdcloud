@@ -12,6 +12,8 @@ $Global:MyOSDCloud = [ordered]@{
     TimeZone             = 'Central Europe Standard Time'
     EnableLocalAdmin     = $true
     AdminPassword        = 'Sam0DaProbam'
+    AutoLogon            = $true
+    AutoLogonCount       = 1
 }
 
 Start-OSDCloud -OSName "Windows 11 24H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage en-US -ZTI
