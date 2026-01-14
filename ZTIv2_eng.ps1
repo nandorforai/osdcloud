@@ -9,4 +9,4 @@ $Global:MyOSDCloud = [ordered]@{
     DiskNumber           = 0
 }
 
-Start-OSDCloud -OSName "Windows 11 25H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage en-US -ZTI
+Start-OSDCloud -OSName "Windows 11 25H2 x64" -OSEdition Enterprise -OSActivation Volume -OSLanguage en-GB -ZTI
